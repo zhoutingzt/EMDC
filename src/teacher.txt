@@ -1,0 +1,5 @@
+tom:20:male
+jack:20:male
+rose:18:female
+mark:25:male
+lucy:22:female

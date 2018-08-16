@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE briup[
+  <!ENTITY address "昆山浦东软件园">
+]>
+<briup>
+<!-- 第一个班级信息 -->
+   <class id='1' group="java"><!-- 可以用单引号 但是显示的时候仍然为双引号 -->
+   <name>
+   华东交大
+   </name>
+   <number>62</number>
+   <address>"第三教室"</address>
+   <address1/>
+   <content>
+   <![CDATA[
+          上课时间 "18.5.30",上课内容,上课老师<********>
+   ]]>
+   </content>
+   </class>
+   <class id="2" group="java">
+   <name>包头师范</name>
+   <number>
+   &lt;56&gt;&quot;&apos;&amp;
+   </number>
+   <address>&address;第一教室</address>
+   </class>
+   <class id="3" group="php">
+   <name>山西大学</name>
+   <number>50</number>
+   <address>第一教室</address>
+   </class>
+   <class id="4" group="android">
+   <name>华东交大</name>
+   <number>62</number>
+   <address>第四教室</address>
+   </class>
+</briup>

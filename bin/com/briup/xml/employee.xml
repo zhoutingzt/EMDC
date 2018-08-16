@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee id="1" depName="教学部">
+    <name>tom</name>
+    <age>20</age>
+    <gender>male</gender>
+    <email>tom@briup.com</email>
+    <salary>2000</salary>
+  </employee>
+  <employee id="2" depName="教学部">
+    <name>jack</name>
+    <age>25</age>
+    <gender>male</gender>
+    <email>jack@briup.com</email>
+    <salary>3000</salary>
+  </employee>
+  <employee id="3" depName="教学管理部">
+    <name>rose</name>
+    <age>22</age>
+    <gender>female</gender>
+    <email>rose@briup.com</email>
+    <salary>1000</salary>
+  </employee>
+  <employee id="4" depName="研发部">
+    <name>mark</name>
+    <age>26</age>
+    <gender>male</gender>
+    <email>mark@briup.com</email>
+    <salary>4000</salary>
+  </employee>
+</employees>

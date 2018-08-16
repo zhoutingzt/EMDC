@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<woss>
+  <gather class="com.briup.environment.client.GatherImpl">
+     <src_file>src/radwtmp</src_file>
+  </gather>
+  <dbStore class="com.briup.environment.server.DBStoreImpl">
+     <driver>oracle.jdbc.driver.OracleDriver</driver>
+     <url>jdbc:oracle:thin:@127.0.0.1:1521:XE</url>
+     <user>envir</user>
+     <password>envir</password>
+  </dbStore>
+  <server class="com.briup.environment.server.ServerImpl">
+    <port>10000</port>
+  </server>
+  <client class="com.briup.environment.client.ClientImpl">
+     <ip>127.0.0.1</ip>
+     <port>10000</port>
+  </client>
+  
+</woss>

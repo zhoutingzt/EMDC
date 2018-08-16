@@ -1,0 +1,58 @@
+package com.briup.environment.bean;
+
+
+public class UserBean {
+    private int id;
+    private String username;
+    private String password;
+    private String gender;
+    public String getGender() {
+		return gender;
+	}
+
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public String getInfo() {
+		return info;
+	}
+
+	public void setInfo(String info) {
+		this.info = info;
+	}
+
+	private String info;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+
+	@Override
+	public String toString() {
+		return "UserBean [id=" + id + ", username=" + username + ", password="
+				+ password + ", gender=" + gender + ", info=" + info + "]";
+	}
+}

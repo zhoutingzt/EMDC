@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disks>
+  <disk name='c盘'>
+  <size>10G</size>
+  <directory>10</directory>
+  <file>20</file>
+  </disk>
+  <disk name='D盘'>
+  <size>20G</size>
+  <directory>20</directory>
+  <file>30</file>
+  </disk>
+</disks>

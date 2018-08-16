@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<woss>
+    <dbstore class="com.briup.woss.GatherAndStore.DBStoreImpl">
+        <url>jdbc:mysql://127.0.0.1:3306/woss</url>
+        <driver>com.mysql.jdbc.Driver</driver>
+        <userName>root</userName>
+        <passWord>123456</passWord>
+        <batch_size>100</batch_size>
+    </dbstore>
+</woss>
