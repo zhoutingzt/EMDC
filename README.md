@@ -17,7 +17,7 @@
 系统结构框架图
 
 这里写代码片
-
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/table.png)
 这里写图片描述
 
 数据采集系统自上而下的控制命令传输过程如下：数据采集中心通过http网络向树莓派终端发送相关的控制命令，树莓派接受到控制命令后按照事先定制的协议对其进行解析，解析通过ZigBee网络按照控制命令字执行相应的操作。
