@@ -2,12 +2,9 @@
 前言
 
 随着经济和科学技术的飞速发展，人民生活水平的不断提高，资源短缺，环境恶化与人口剧增的矛盾却越来越突出，发展设施农业，提高我国农产品的质量和生产效率已经刻不容缓，性能良好的物联网环境监测数据中心系统为发展设施农业提供了良好的技术保障。 本设计说明书根据”昆山现代设施农业科技示范基地”项目建设需要并结合移动通信技术，ZigBee段距离无线技术和Internet网络技术设计了一种基于java和ZigBee技术的物联网环境监测数据系统，该系统能够及时，快捷，准确的抄收温室环境下的相关数据。
-这里写图片描述
-
-这里写图片描述
-
 
 传感器实验箱
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/chuanganqi.png)
 
 这里写图片描述
 
@@ -17,7 +14,7 @@
 系统结构框架图
 
 这里写代码片
-![image](https://github.com/zhoutingzt/EMDC/blob/master/image/table.png)
+
 这里写图片描述
 
 数据采集系统自上而下的控制命令传输过程如下：数据采集中心通过http网络向树莓派终端发送相关的控制命令，树莓派接受到控制命令后按照事先定制的协议对其进行解析，解析通过ZigBee网络按照控制命令字执行相应的操作。
@@ -191,21 +188,33 @@ BEGIN
 
 系统编写环境：Idea+Maven+oracle+传感器+Swing+Socket+Jdbc 这里写图片描述
 采集的数据 这里写图片描述
-这里写图片描述
+登录效果图：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/login.png)
+注册效果图：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/register.png)
 
-这里写图片描述
+用户信息修改效果图：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/modifyuser.png)
 
-这里写图片描述
+数据展示效果图：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/table.png)
 
-这里写图片描述
+统计数据效果图：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/selectcount.png)
 
-这里写图片描述
-
-这里写图片描述
-
+根据日期展示：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/selectdate.png)
+获取实时数据的效果图：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/realtimedata.png)
+生成报表的效果图：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/shechengbaobiao.png)
+清空数据的效果图：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/cleardata.png)
+导出报表的效果图：
+![image](https://github.com/zhoutingzt/EMDC/blob/master/image/exportExcel.png)
 项目下载地址
 
-CSDN:https://download.csdn.net/download/m0_37499059/10479486 Github:https://github.com/chenxingxing6/EMDC
+Github:https://github.com/zhoutingzt/EMDC
 
 总结
 
